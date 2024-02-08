@@ -1,6 +1,7 @@
 'use client'
 
 import React, {useEffect, useState } from 'react'
+import { MainContainer } from './styles/global';
 
 
 export default function Home() {
@@ -21,8 +22,8 @@ export default function Home() {
   }, [])
   
   return (
-    <main>
-      <h1>hello</h1>
-    </main>
+    <MainContainer>
+      <h1>Weather</h1>
+    </MainContainer>
   );
 }
